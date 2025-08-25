@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="55f9d4ff-0287-489e-ac24-0727a14986cd" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="31kNayFY11XjZ1JpnGLHw4QHMo6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.petstore-api-tests [clean].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.F:/coforge project/petstore-api-tests/TestNg.xml.executor": "Run",
+    "TestNG.PetTests.TC_09_AddPetWithMissingName.executor": "Run",
+    "TestNG.PetTests.executor": "Run",
+    "TestNG.StoreTests.executor": "Run",
+    "TestNG.UserTests.TC_01_CreateANewUser.executor": "Run",
+    "TestNG.UserTests.TC_02_UserLoginWithValidCredentials.executor": "Debug",
+    "TestNG.UserTests.TC_03_UserLoginWithInvalidCredentials.executor": "Run",
+    "TestNG.UserTests.TC_04_FetchUserByUsername.executor": "Run",
+    "TestNG.UserTests.TC_05_UpdateUserProfile.executor": "Run",
+    "TestNG.UserTests.TC_06_DeleteUser.executor": "Run",
+    "TestNG.UserTests.TC_07_LogoutUser.executor": "Run",
+    "TestNG.UserTests.TC_08_CreateNewPet.executor": "Run",
+    "TestNG.UserTests.TC_09_AddPetWithMissingName.executor": "Run",
+    "TestNG.UserTests.TC_10_PlaceOrderForCreatedPet.executor": "Run",
+    "TestNG.UserTests.TC_11_PlaceOrderWithInvalidPetId.executor": "Run",
+    "TestNG.UserTests.TC_CreateUser.executor": "Run",
+    "TestNG.UserTests.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/91 assignements/petstore-api-tests",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.petstore.tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.F:/coforge project/petstore-api-tests/TestNg.xml">
+    <configuration name="F:/coforge project/petstore-api-tests/TestNg.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="petstore-api-tests" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNg.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="petstore-api-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.petstore.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.petstore.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.petstore.tests.PetTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetTests.TC_09_AddPetWithMissingName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="petstore-api-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.petstore.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.petstore.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.petstore.tests.PetTests" />
+      <option name="METHOD_NAME" value="TC_09_AddPetWithMissingName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="petstore-api-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.petstore.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.petstore.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.petstore.tests.StoreTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="petstore-api-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.petstore.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.petstore.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.petstore.tests.UserTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.F:/coforge project/petstore-api-tests/TestNg.xml" />
+        <item itemvalue="TestNG.PetTests.TC_09_AddPetWithMissingName" />
+        <item itemvalue="TestNG.StoreTests" />
+        <item itemvalue="TestNG.UserTests" />
+        <item itemvalue="TestNG.PetTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55f9d4ff-0287-489e-ac24-0727a14986cd" name="Changes" comment="" />
+      <created>1756064177806</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756064177806</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/petstore/utils/ExcelReader.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

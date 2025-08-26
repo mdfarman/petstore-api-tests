@@ -118,11 +118,11 @@ public class UserTests extends BaseTest {
 
 
     @Test(priority = 4, dataProvider = "userTestData", description = "Validate retrieval of user details using a valid username.")
-    public void TC_04_FetchUserByUsername(Map<String, String> tData) {
+    public void TC_04_FetchUserByUsername(Map<String, String> tData) throws InterruptedException {
         String baseUrl = "https://petstore.swagger.io/v2";
         String endpoint = tData.get("Endpoint");
         String username = tData.get("username");
-
+        Thread.sleep(2000);
         // Build the endpoint for fetching user by username
         String fetchUserEndpoint = endpoint + "/" + username;
 

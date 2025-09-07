@@ -1,6 +1,7 @@
 package com.petstore.base;
 
 import com.petstore.utils.ExcelReader;
+
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -14,21 +15,22 @@ public class BaseTest {
     protected String excelPath = "src/test/resource/TestCases.xlsx";
     protected Object lastRequest;
     protected Response lastResponse;
-    protected Iterator<Object[]> getTestDataForCurrentMethod(String methodName, String scenarioType) {
-    List<Map<String, String>> allData = ExcelReader.getAllTestCaseData(excelPath, scenarioType);
-    List<Object[]> filtered = new java.util.ArrayList<>();
 
-    for (Map<String, String> data : allData) {
-        String execution = data.get("Execution");
-        String testCaseName = data.get("TestCaseName");
-        if (execution != null && testCaseName != null &&
-            "Yes".equalsIgnoreCase(execution) &&
-            methodName.replace("_", "").equalsIgnoreCase(testCaseName.replace("_", ""))) {
-            filtered.add(new Object[]{data});
+    protected Iterator<Object[]> getTestDataForCurrentMethod(String methodName, String scenarioType) {
+        List<Map<String, String>> allData = ExcelReader.getAllTestCaseData(excelPath, scenarioType);
+        List<Object[]> filtered = new java.util.ArrayList<>();
+
+        for (Map<String, String> data : allData) {
+            String execution = data.get("Execution");
+            String testCaseName = data.get("TestCaseName");
+            if (execution != null && testCaseName != null &&
+                    "Yes".equalsIgnoreCase(execution) &&
+                    methodName.replace("_", "").equalsIgnoreCase(testCaseName.replace("_", ""))) {
+                filtered.add(new Object[]{data});
+            }
         }
-    }
-    System.out.println("DataProvider for method: " + methodName + ", found rows: " + filtered.size());
-    return filtered.iterator();
+        System.out.println("DataProvider for method: " + methodName + ", found rows: " + filtered.size());
+        return filtered.iterator();
     }
 
     protected String getCurrentTestMethodName() {
@@ -42,7 +44,7 @@ public class BaseTest {
         return "";
     }
 
-      @AfterMethod
+    @AfterMethod
     public void printRequestAndResponse(ITestResult result) {
         System.out.println("----- Test: " + result.getMethod().getMethodName() + " -----");
         if (lastRequest != null) {

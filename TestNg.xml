@@ -19,8 +19,26 @@
     <test name="StoreAPITests">
         <classes>
             <class name="com.petstore.tests.StoreTests">
-                <!-- Run all methods in StoreTests -->
             </class>
         </classes>
     </test>
 </suite>
+
+<!--<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >-->
+<!--<suite name="PetStoreAPISuite" verbose="1" parallel="tests" thread-count="3">-->
+<!--    <test name="UserAPITests">-->
+<!--        <classes>-->
+<!--            <class name="com.petstore.tests.UserTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="PetAPITests">-->
+<!--        <classes>-->
+<!--            <class name="com.petstore.tests.PetTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="StoreAPITests">-->
+<!--        <classes>-->
+<!--            <class name="com.petstore.tests.StoreTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
